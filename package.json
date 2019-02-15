@@ -1,0 +1,24 @@
+{
+  "name": "cleanmodifier",
+  "version": "1.0.0",
+  "description": "Cleans a mongodb modifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Max Nowack <max@unsou.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2"
+  },
+  "dependencies": {
+    "deep-object-diff": "^1.0.1",
+    "dot-prop": "^4.1.1",
+    "flat": "^2.0.1",
+    "lo-diff": "^1.0.5",
+    "object-diff": "^0.0.4"
+  }
+}
